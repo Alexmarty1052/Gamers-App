@@ -30,6 +30,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -84,6 +85,48 @@ header figure img {
   color: var(--white);
   border: solid 1px var(--white);
   border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .cabeza {
+  background: linear-gradient(var(--black), var(--gris));
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 2px;   
+  width: 100vw;           
+}
+
+.container .cabeza div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  margin: 6px;
+}
+
+.container .cabeza div a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.container .cabeza div a p {
+  color: var(--white);
+  margin: 4px;
+  font-size: var(--very-sm);
+  font-weight: 600;
+}
+
+.container .cabeza div a img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }
 
 footer {
