@@ -1,0 +1,138 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gris: #212221;
+  --gris-claro: #73746b;
+  --terciary-blue: #87a1da;
+  --fourth-blue: #143988;
+  --hover: #338f33;
+  --active: #d41a1a;
+  --very-sm: 1rem;
+  --normal: 1.6rem;
+  --median: 2rem;
+  --big: 4rem
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  width: 50vw;
+}
+
+body {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+header {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  border-bottom: solid 1px var(--white);
+}
+
+header figure {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 8vh;
+}
+
+header figure img {
+  margin: 4px;
+  border-radius: 20px;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 6vh;
+
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.main-nav ul li {
+  
+}
+
+.main-nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+  margin: 2px;
+  padding: 6px;
+}
+
+.main-nav ul li a:hover {
+  color: var(--white);
+  border: solid 1px var(--white);
+  border-radius: 10px;
+}
+
+.left-section {
+  background: linear-gradient(var(--black), var(--gris));
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+}
+
+.left-section div {
+  background-image: url(https://th.bing.com/th/id/OIP.Nw09iZsIT8tehVil5q7kTAHaEK?rs=1&pid=ImgDetMain);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 20vh;
+  margin: 6px auto;
+  border: solid 1px var(--black);
+}
+
+.left-section div a {
+  color: var(--white);
+  font-weight: 600;
+  font-size: var(--normal);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  height: 19vh;
+  margin: 2px auto;
+  text-decoration: none;
+}
+
+.left-section div a img {
+  width: 150px;
+}
+
+footer {
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+  border-top: solid 1px var(--black);
+}
+
+footer img {
+  width: 50px;
+}
