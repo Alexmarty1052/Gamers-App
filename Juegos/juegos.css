@@ -74,6 +74,7 @@ header figure img {
 
 .main-nav ul li a {
   color: var(--white);
+  font-size: var(--normal);
   text-decoration: none;
   margin: 2px;
   padding: 6px;
@@ -93,6 +94,7 @@ header figure img {
 .container .cabeza {
   background: linear-gradient(var(--black), var(--gris));
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0 2px;   
   width: 100vw;           

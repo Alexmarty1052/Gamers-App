@@ -74,6 +74,7 @@ header figure img {
 
 .main-nav ul li a {
   color: var(--white);
+  font-size: var(--normal);
   text-decoration: none;
   margin: 2px;
   padding: 6px;
@@ -130,7 +131,6 @@ footer {
   align-items: center;
   width: 100vw;
   height: 8vh;
-  border-top: solid 1px var(--white);
 }
 
 footer img {
